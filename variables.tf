@@ -56,6 +56,5 @@ variable "name" {
 variable "region" {
   description = "The AWS region where resources will be created"
   type        = string
-  default     = "us-west-2"  # Set a default region if desired
+  default     = "us-west-2" # Set a default region if desired
 }
-
